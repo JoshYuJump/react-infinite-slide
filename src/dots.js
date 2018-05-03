@@ -59,8 +59,3 @@ export default class Dots extends React.Component {
     )
   }
 }
-
-Dots.propTypes = {
-  activeDot: React.PropTypes.number,
-  length: React.PropTypes.number,
-};
