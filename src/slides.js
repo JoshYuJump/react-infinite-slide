@@ -218,12 +218,3 @@ export default class Slides extends React.Component {
     );
   }
 }
-
-Slides.propTypes = {
-  children: React.PropTypes.arrayOf(React.PropTypes.element),
-  width: React.PropTypes.string,
-  height: React.PropTypes.string,
-  delay: React.PropTypes.number,
-  duration: React.PropTypes.number,
-  autoplay: React.PropTypes.bool
-};
